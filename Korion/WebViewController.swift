@@ -14,7 +14,6 @@ class WebViewController: UIViewController {
     private let localStorageProvider: LocalStorageProvider = LocalStorageProvider(localStorage: UserDefaults.standard)
     
     private var urlHistory: [String] = []
-    private var currentIndex = 0
     private var isAtHomeScreen = false
     
     private let urlOne = "https://stil.kurir.rs/moda/157971/ovo-su-najstilizovanije-zene-sveta-koja-je-po-vama-br-1-anketa"
